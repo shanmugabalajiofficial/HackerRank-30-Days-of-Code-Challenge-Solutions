@@ -9,8 +9,8 @@ class Person:
 	def printPerson(self):
 		print("Name:", self.lastName + ",", self.firstName)
 		print("ID:", self.idNumber)
-import math
 #Solution Code Starts Here
+import math
 class Student(Person):
     #Class Constructor
     def __init__(self, firstName, lastName, idNumber, scores):
