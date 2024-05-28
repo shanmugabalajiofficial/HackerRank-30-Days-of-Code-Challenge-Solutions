@@ -8,7 +8,7 @@ class Book(object, metaclass=ABCMeta):
         self.author=author   
     @abstractmethod
     def display(): pass
-    
+# Soluton Starts Here
 class MyBook(Book):
     def __init__(self, title, author, price):
         super().__init__(title, author)
@@ -18,7 +18,7 @@ class MyBook(Book):
         print("Title: "+self.title)
         print("Author: "+self.author)
         print("Price: "+self.price)
-
+# Solution Ends Here
 title=input()
 author=input()
 price=int(input())
